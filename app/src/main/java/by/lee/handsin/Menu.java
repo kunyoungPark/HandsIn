@@ -19,7 +19,35 @@ public class Menu extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Menu.this, DonateMenu.class);
+                Intent it = new Intent(Menu.this, Aboutus.class);
+                startActivity(it);
+            }
+        });
+
+
+        Button btn2= findViewById(R.id.button3);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Menu.this, Mypage.class);
+                startActivity(it);
+            }
+        });
+
+        Button btn3= findViewById(R.id.button4);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Menu.this, FakeList.class);
+                startActivity(it);
+            }
+        });
+
+        Button btn4= findViewById(R.id.button5);
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Menu.this, Map.class);
                 startActivity(it);
             }
         });

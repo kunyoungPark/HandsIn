@@ -48,7 +48,7 @@ public class ItemAdapter extends BaseAdapter {
         ImageView imageView = (ImageView)view.findViewById(R.id.img);
         TextView title = (TextView)view.findViewById(R.id.title);
         TextView description = (TextView)view.findViewById(R.id.description);
-        imageView.setImageResource(R.drawable.s1);
+        imageView.setImageResource(R.drawable.img);
        // imageView.setImageResource(sample.get(position).getImg());
         title.setText(sample.get(position).getTitle());
         description.setText(sample.get(position).getDescription());
